@@ -12,3 +12,9 @@ set status = ##class(DH.WatchedStatus).New("RW")<br />
 set status.sc = (some method that returns a status object)
 
 If the R flag was not given, further error handing by setting this same status will not trigger unless the sc is manually set back to $$$OK.
+
+### Installation
+
+This class is available via IPM. 
+
+`install watchedstatus`
