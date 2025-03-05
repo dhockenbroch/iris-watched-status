@@ -1,6 +1,6 @@
 /// This class can be used to make a status code do some basic handling on its own when it becomes an error status.
 /// For example:<br /><br />
-/// set status = ##class(User.WatchedStatus).New("RW")<br />
+/// set status = ##class(DH.WatchedStatus).New("RW")<br />
 /// set status.sc = (some method that returns a status here)<br /><br />
 /// If the method returns an error status, it will immediately be written, and the status will change back to $$$OK.<br />
 /// Note that if ..sc is not set back to an $$$OK status, either automatically or manually, error handling will not trigger again on the next error.
