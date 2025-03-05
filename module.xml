@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="Cache" version="25">
+  <Document name="watchedstatus.ZPM">
+    <Module>
+      <Name>watchedstatus</Name>
+      <Version>1.0.1</Version>
+      <Description>Creates a class containing a status that can throw, log, write, and reset itself.</Description>
+      <Keywords>status,error handling</Keywords>
+      <Packaging>module</Packaging>
+      <Resource Name="DH.PKG"/>
+      <LifecycleClass>%IPM.Lifecycle.Module</LifecycleClass>
+      <SourcesRoot>src</SourcesRoot>
+    </Module>
+  </Document>
+</Export>
