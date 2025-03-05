@@ -8,7 +8,7 @@ Flags can be provided in any order and are not case sensitive.
 
 The following code should create a watched status that writes its own error text, then resets to $$$OK. (This is useful when testing in a terminal.)
 
-set status = ##class(User.WatchedStatus).New("RW")<br />
+set status = ##class(DH.WatchedStatus).New("RW")<br />
 set status.sc = (some method that returns a status object)
 
 If the R flag was not given, further error handing by setting this same status will not trigger unless the sc is manually set back to $$$OK.
